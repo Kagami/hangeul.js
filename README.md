@@ -1,4 +1,4 @@
-# ruhangul [![npm](https://img.shields.io/npm/v/ruhangul.svg)](https://www.npmjs.com/package/ruhangul) [![Build Status](https://travis-ci.org/Kagami/ruhangul.svg?branch=master)](https://travis-ci.org/Kagami/ruhangul)
+# ruhangul [![npm](https://badge.fury.io/js/ruhangul.svg)](https://www.npmjs.com/package/ruhangul) [![Build Status](https://travis-ci.org/Kagami/ruhangul.svg?branch=master)](https://travis-ci.org/Kagami/ruhangul)
 
 Hangul to cyrillic transliteration library.
 
