@@ -226,8 +226,6 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
       } else if (n[0] === "") {
         e3 = "g";
         r3 = "г";
-      } else if (n[0] === "kh") {
-        e3 = "k-";
       }
     }
     break;
@@ -244,13 +242,9 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
     break;
   case "n":
     r3 = "н";
-    if (n) {
-      if (n[0] === "r") {
-        e3 = "l";
-        r3 = "л";
-      } else if (n[0] === "g") {
-        e3 = "n-";
-      }
+    if (n && n[0] === "r") {
+      e3 = "l";
+      r3 = "л";
     }
     break;
   case "nj":
@@ -271,8 +265,6 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
         r3 = "д";
       } else if (n[0] === "n" || n[0] === "r" || n[0] === "m") {
         e3 = "n";
-      } else if (n[0] === "th") {
-        e3 = "t-";
       }
     }
     break;
@@ -356,8 +348,6 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
       } else if (n[0] === "") {
         e3 = "b";
         r3 = "б";
-      } else if (n[0] === "ph") {
-        e3 = "p-";
       }
     }
     break;
@@ -370,7 +360,6 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
   case "ng":
     r3 = "н";
     if (n && n[0] === "") {
-      e3 = "ng-";
       r3 = "нъ";
     }
     break;

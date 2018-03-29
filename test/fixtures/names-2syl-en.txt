@@ -1,6 +1,6 @@
 하정 -> Hajeong
 자연 -> Jayeon
-정유 -> Jeong-yu
+정유 -> Jeongyu
 이다 -> Ida
 신혜 -> Sinhye
 소정 -> Sojeong
@@ -53,7 +53,7 @@
 다윤 -> Dayun
 가온 -> Gaon
 하윤 -> Hayun
-공유 -> Gong-yu
+공유 -> Gongyu
 문희 -> Munhui
 혜미 -> Hyemi
 지은 -> Jieun
@@ -67,7 +67,7 @@
 유정 -> Yujeong
 유나 -> Yuna
 지니 -> Jini
-형은 -> Hyeong-eun
+형은 -> Hyeongeun
 키미 -> Kimi
 세이 -> Sei
 소라 -> Sora
@@ -79,7 +79,7 @@
 엘키 -> Elki
 은빈 -> Eunbin
 승희 -> Seunghui
-승연 -> Seung-yeon
+승연 -> Seungyeon
 예은 -> Yeeun
 유진 -> Yujin
 아영 -> Ayeong
@@ -157,7 +157,7 @@
 하은 -> Haeun
 희진 -> Huijin
 지원 -> Jiwon
-럭키 -> Reok-ki
+럭키 -> Reokki
 나윤 -> Nayun
 비바 -> Biba
 해빈 -> Haebin
@@ -232,7 +232,7 @@
 금조 -> Geumjo
 경리 -> Gyeongri
 소진 -> Sojin
-성아 -> Seong-a
+성아 -> Seonga
 청린 -> Cheongrin
 인화 -> Inhwa
 메이 -> Mei
@@ -263,7 +263,7 @@
 재경 -> Jaegyeong
 지숙 -> Jisuk
 노을 -> Noeul
-승아 -> Seung-a
+승아 -> Seunga
 우리 -> Uri
 윤혜 -> Yunhye
 한설 -> Hanseol
@@ -324,7 +324,7 @@
 유진 -> Yujin
 채영 -> Chaeyeong
 다현 -> Dahyeon
-정연 -> Jeong-yeon
+정연 -> Jeongyeon
 지효 -> Jihyo
 미나 -> Mina
 모모 -> Momo
