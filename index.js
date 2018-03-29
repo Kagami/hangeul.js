@@ -61,7 +61,8 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
   case "r":
     r1 = "р";
     if (p) {
-      if (p[2] === "n" || p[2] === "r") {
+      if ((!n && (p[2] === "n" || p[2] === "r")) || (n && p[2] === "")) {
+        e1 = "l";
         r1 = "л";
       } else if (p[2] === "g"
           || p[2] === "gg"
@@ -486,6 +487,7 @@ function transliterateName(hangul) {
   ru += capitalize(ruSyl);
   // Fix famliy name in special cases.
   if (en === "I" || en === "Ri") {
+    en = "Lee";
     ru = "Ли";
   } else if (en === "Im" || en === "Rim") {
     ru = "Лим";
