@@ -136,7 +136,7 @@
 새롬 -> Saerom
 서연 -> Seoyeon
 엠버 -> Embeo
-루나 -> Runa
+루나 -> Luna
 설리 -> Seolli
 엘린 -> Ellin
 지강 -> Jigang
@@ -348,8 +348,8 @@
 우주 -> Uju
 도연 -> Doyeon
 엘리 -> Elli
-루아 -> Rua
-루시 -> Rusi
+루아 -> Lua
+루시 -> Lusi
 리나 -> Rina
 세이 -> Sei
 수연 -> Suyeon
@@ -360,7 +360,7 @@
 다영 -> Dayeong
 은서 -> Eunseo
 엑시 -> Eksi
-루다 -> Ruda
+루다 -> Luda
 미기 -> Migi
 설아 -> Seora
 수빈 -> Subin
