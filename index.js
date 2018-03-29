@@ -468,30 +468,42 @@ function disassemble(hangul) {
 }
 
 function transliterateName(hangul) {
-  if (!hangul || hangul.length !== 3) return null;
+  if (!hangul) return null;
+  const full = hangul.length === 3;
+  const short = hangul.length === 2;
+  if (!short && !full) return null;
 
   const chars = disassemble(hangul);
   if (!chars) return null;
+  if (short) {
+    chars.unshift(null);
+  }
 
   let en = "";
   let ru = "";
+  let enSyl = "";
+  let ruSyl = "";
 
   // Family name.
-  let {enSyl, ruSyl} = transliterateSyl(chars[0], null, null);
-  en += capitalize(enSyl);
-  ru += capitalize(ruSyl);
-  // Fix famliy name in special cases.
-  if (en === "I" || en === "Ri") {
-    en = "Lee";
-    ru = "Ли";
-  } else if (en === "Im" || en === "Rim") {
-    ru = "Лим";
+  if (full) {
+    ({enSyl, ruSyl} = transliterateSyl(chars[0], null, null));
+    en += capitalize(enSyl);
+    ru += capitalize(ruSyl);
+    // Fix famliy name in special cases.
+    if (en === "I" || en === "Ri") {
+      en = "Lee";
+      ru = "Ли";
+    } else if (en === "Im" || en === "Rim") {
+      ru = "Лим";
+    }
+    en += " ";
+    ru += " ";
   }
 
   // Given name.
   ({enSyl, ruSyl} = transliterateSyl(chars[1], chars[0], chars[2]));
-  en += " " + capitalize(enSyl);
-  ru += " " + capitalize(ruSyl);
+  en += capitalize(enSyl);
+  ru += capitalize(ruSyl);
   ({enSyl, ruSyl} = transliterateSyl(chars[2], chars[1], null));
   en += enSyl;
   ru += ruSyl;

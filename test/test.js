@@ -22,7 +22,7 @@ describe("ruhangul", () => {
     context("names-3syl-ru", () => {
       it("should transliterate full names to cyrillic", function() {
         this.fixture.forEach(([input, output]) => {
-          assert.equal(ruhangul.name(input), output);
+          assert.equal(output, ruhangul.name(input));
         });
       });
     });
@@ -30,7 +30,23 @@ describe("ruhangul", () => {
     context("names-3syl-en", () => {
       it("should transliterate full names to latin", function() {
         this.fixture.forEach(([input, output]) => {
-          assert.equal(ruhangul.enname(input), output);
+          assert.equal(output, ruhangul.enname(input));
+        });
+      });
+    });
+
+    context("names-2syl-ru", () => {
+      it("should transliterate short names to cyrillic", function() {
+        this.fixture.forEach(([input, output]) => {
+          assert.equal(output, ruhangul.name(input));
+        });
+      });
+    });
+
+    context("names-2syl-en", () => {
+      it("should transliterate short names to latin", function() {
+        this.fixture.forEach(([input, output]) => {
+          assert.equal(output, ruhangul.enname(input));
         });
       });
     });
