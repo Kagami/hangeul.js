@@ -120,11 +120,6 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
   case "ch":
     r1 = "чх";
     break;
-  case "":
-    if (p && p[2] === "") {
-      e1 = "'";
-    }
-    break;
   case "kh":
     e1 = "k";
     r1 = "кх";
@@ -495,7 +490,7 @@ function transliterateName(hangul) {
 
   // Given name.
   ({enSyl, ruSyl} = transliterateSyl(chars[1], chars[0], chars[2]));
-  en += " " + capitalize(enSyl.replace(/'/, ""));
+  en += " " + capitalize(enSyl);
   ru += " " + capitalize(ruSyl);
   ({enSyl, ruSyl} = transliterateSyl(chars[2], chars[1], null));
   en += enSyl;
