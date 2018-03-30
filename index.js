@@ -91,7 +91,10 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
     r1 = "м";
     break;
   case "b":
-    r1 = "п";
+    r1 = "б";
+    if (!n) {
+      r1 = "п";
+    }
     if (p) {
       if (p[2] === ""
           || p[2] === "n"
