@@ -22,8 +22,15 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
   // Make entry consonant.
   switch (e1) {
   case "g":
+    e1 = "k";
     r1 = "к";
+    if (c[1] === "o" || c[1] === "a" || c[1] === "yu") {
+      e1 = "g";
+    }
     if (p) {
+      if (c[1] === "i") {
+        e1 = "g";
+      }
       if (p[2] === ""
           || p[2] === "n"
           || p[2] === "r"

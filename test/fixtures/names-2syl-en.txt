@@ -18,13 +18,13 @@
 하영 -> Hayeong
 나은 -> Naeun
 남주 -> Namju
-유경 -> Yugyeong
+유경 -> Yukyeong
 하은 -> Haeun
 현민 -> Hyeonmin
 샌디 -> Saendi
 유림 -> Yurim
 유지 -> Yuji
-채경 -> Chaegyeong
+채경 -> Chaekyeong
 채원 -> Chaewon
 현주 -> Hyeonju
 진솔 -> Jinsol
@@ -121,7 +121,7 @@
 정희 -> Jeonghui
 새봄 -> Saebom
 서연 -> Seoyeon
-수경 -> Sugyeong
+수경 -> Sukyeong
 혜미 -> Hyemi
 재이 -> Jaei
 린지 -> Rinji
@@ -132,7 +132,7 @@
 지헌 -> Jiheon
 지선 -> Jiseon
 지원 -> Jiwon
-나경 -> Nagyeong
+나경 -> Nakyeong
 새롬 -> Saerom
 서연 -> Seoyeon
 엠버 -> Embeo
@@ -199,7 +199,7 @@
 희진 -> Huijin
 현진 -> Hyeonjin
 진솔 -> Jinsol
-김립 -> Gimrip
+김립 -> Kimrip
 비비 -> Bibi
 여진 -> Yeojin
 이브 -> Ibeu
@@ -229,8 +229,8 @@
 태하 -> Taeha
 연우 -> Yeonu
 혜미 -> Hyemi
-금조 -> Geumjo
-경리 -> Gyeongri
+금조 -> Keumjo
+경리 -> Kyeongri
 소진 -> Sojin
 성아 -> Seonga
 청린 -> Cheongrin
@@ -257,10 +257,10 @@
 연하 -> Yeonha
 연주 -> Yeonju
 은용 -> Eunyong
-건희 -> Geonhui
+건희 -> Keonhui
 우영 -> Uyeong
 현영 -> Hyeonyeong
-재경 -> Jaegyeong
+재경 -> Jaekyeong
 지숙 -> Jisuk
 노을 -> Noeul
 승아 -> Seunga
