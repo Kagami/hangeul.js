@@ -50,7 +50,10 @@ function transliterateSyl(c/* current char jamos */, p/* previous */, n/* next *
     r1 = "н";
     break;
   case "d":
-    r1 = "т";
+    r1 = "д";
+    if (!n) {
+      r1 = "т";
+    }
     if (p) {
       if (p[2] === "" || p[2] === "n" || p[2] === "m" || p[2] === "ng") {
         r1 = "д";
