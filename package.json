@@ -1,7 +1,7 @@
 {
-  "name": "ruhangul",
+  "name": "hangeul",
   "version": "0.2.0",
-  "description": "Hangul to cyrillic transliteration library",
+  "description": "Hangeul transliteration library",
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
@@ -10,29 +10,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kagami/ruhangul.git"
+    "url": "git+https://github.com/kpopnet/hangeul.js.git"
   },
   "keywords": [
     "hangul",
-    "cyrillic",
     "transliteration",
     "isomorphic"
   ],
   "author": "Kagami Hiiragi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kagami/ruhangul/issues"
+    "url": "https://github.com/kpopnet/hangeul.js/issues"
   },
-  "homepage": "https://github.com/Kagami/ruhangul#readme",
+  "homepage": "https://github.com/kpopnet/hangeul.js#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
-    "mocha": "^5.0.5"
+    "mocha": "^7.1.2"
   }
 }

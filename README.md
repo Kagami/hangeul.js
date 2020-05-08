@@ -1,33 +1,33 @@
-# ruhangul [![npm](https://badge.fury.io/js/ruhangul.svg)](https://www.npmjs.com/package/ruhangul) [![Build Status](https://travis-ci.org/Kagami/ruhangul.svg?branch=master)](https://travis-ci.org/Kagami/ruhangul)
+# hangeul [![npm](https://badge.fury.io/js/hangeul.svg)](https://www.npmjs.com/package/hangeul) [![Build Status](https://travis-ci.org/kpopnet/hangeul.js.svg?branch=master)](https://travis-ci.org/kpopnet/hangeul.js)
 
-Hangul to cyrillic transliteration library.
+Hangeul transliteration library. Transliteration of Korean names to latin and cyrillic is currently supported.
 
 ## Usage
 
 ```
-npm install ruhangul
-```
-
-**Transliterate hangul name to cyrillic**
-
-```js
-const ruhangul = require("ruhangul");
-console.log(ruhangul.name("전보람"));
-```
-
-```
-Чон Борам
+npm install hangeul
 ```
 
 **Transliterate hangul name to latin**
 
 ```js
-const ruhangul = require("ruhangul");
-console.log(ruhangul.enname("전보람"));
+const hangeul = require("hangeul");
+console.log(hangeul.enname("전보람"));
 ```
 
 ```
 Jeon Boram
+```
+
+**Transliterate hangul name to cyrillic**
+
+```js
+const hangeul = require("hangeul");
+console.log(hangeul.runame("전보람"));
+```
+
+```
+Чон Борам
 ```
 
 ## License

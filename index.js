@@ -524,7 +524,7 @@ module.exports = {
    * @param {string} hangul - Hangul name
    * @return {string} Name in cyrillic.
    */
-  name(hangul) {
+  runame(hangul) {
     const obj = transliterateName(hangul);
     return obj ? obj.ru : "";
   },
