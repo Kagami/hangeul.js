@@ -1,6 +1,6 @@
 {
   "name": "hangeul",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Hangeul transliteration library",
   "main": "index.js",
   "typings": "index.d.ts",
