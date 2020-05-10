@@ -1,4 +1,7 @@
-declare module "ruhangul" {
-  export const name: (hangul: string) => string;
-  export const enname: (hangul: string) => string;
+declare module "hangeul" {
+  const E: {
+    runame: (hangul: string) => string;
+    enname: (hangul: string) => string;
+  };
+  export = E;
 }
