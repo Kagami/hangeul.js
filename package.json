@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kpopnet/hangeul.js.git"
+    "url": "git+https://github.com/Kagami/hangeul.js.git"
   },
   "keywords": [
     "hangul",
@@ -20,9 +20,9 @@
   "author": "Kagami Hiiragi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kpopnet/hangeul.js/issues"
+    "url": "https://github.com/Kagami/hangeul.js/issues"
   },
-  "homepage": "https://github.com/kpopnet/hangeul.js#readme",
+  "homepage": "https://github.com/Kagami/hangeul.js#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",

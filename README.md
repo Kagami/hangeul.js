@@ -1,4 +1,4 @@
-# hangeul.js [![npm](https://badge.fury.io/js/hangeul.svg)](https://www.npmjs.com/package/hangeul) [![Build Status](https://travis-ci.org/kpopnet/hangeul.js.svg?branch=master)](https://travis-ci.org/kpopnet/hangeul.js)
+# hangeul.js [![npm](https://badge.fury.io/js/hangeul.svg)](https://www.npmjs.com/package/hangeul) [![Build Status](https://travis-ci.org/Kagami/hangeul.js.svg?branch=master)](https://travis-ci.org/Kagami/hangeul.js)
 
 Hangeul transliteration library. Transliteration of Korean names to latin and cyrillic is currently supported.
 
